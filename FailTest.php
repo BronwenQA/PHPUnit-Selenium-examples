@@ -1,5 +1,5 @@
 <?php
-class FailTest extends PHPUnit_Extensions_Selenium2TestCase
+class FailTest extends PHPUnit_Framework_TestCase
 {
 
     public function testPass()
