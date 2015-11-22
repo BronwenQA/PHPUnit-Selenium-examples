@@ -1,7 +1,7 @@
 <?php
 
 /*
-This TestCase checks that Twitter supports French as a language, and not Afrikaans.
+This TestCase checks that Twitter supports French as a language, and not Klingon.
 */
 
 class TwitterLanguagesTest extends PHPUnit_Extensions_Selenium2TestCase
@@ -39,9 +39,9 @@ class TwitterLanguagesTest extends PHPUnit_Extensions_Selenium2TestCase
 	$this->assertTrue($this->findLanguage("Français"));
     }
 
-    public function testAfrikaans()
+    public function testKlingon()
     {
-	$this->assertFalse($this->findLanguage("Afrikaans"));
+	$this->assertFalse($this->findLanguage("Klingon"));
     }
 
 }
