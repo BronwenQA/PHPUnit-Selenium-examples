@@ -1,6 +1,5 @@
 <?php
-require_once('vendor/autoload.php');
-require_once('PHPUnit/Extensions/Selenium2TestCase.php');
+require_once('PHPUnit/autoload.php');
 /*
 This TestCase checks that Twitter supports French as a language, and not Klingon.
 */
