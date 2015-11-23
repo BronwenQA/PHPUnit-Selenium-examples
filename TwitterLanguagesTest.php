@@ -1,5 +1,4 @@
 <?php
-require_once 'vendor/autoload.php';
 
 /*
 This TestCase checks that Twitter supports French as a language, and not Klingon.
